@@ -1,0 +1,1 @@
+print("\n\t\t\t\t\t\t\t*\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t*\t\t*\n\n\t\t\t\t\t*\t\t\t\t*\n\n\t\t\t\t*\t\t\t\t\t\t*\n\n\t\t\t*\t\t\tJohn Lloyd C. Navaja\t\t\t*\n\n\t\t\t\t*\t\t\t\t\t\t*\n\n\t\t\t\t\t*\t\t\t\t*\n\n\t\t\t\t\t\t*\t\t*\n\n\t\t\t\t\t\t\t*")

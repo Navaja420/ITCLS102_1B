@@ -1,22 +1,30 @@
-C = eval(input("How much are you gonna deposit: "))
-print("The breakdown of the Deposit amount: ")
+deposit = eval(input(" Enter the amount to deposit -->",))
+print("Here it the breakdown of the deposit amount:")
 
-n1 = 1000
-n2 = 500
-n3 = 200
-n4 = 100
-n5 = 50
-n6 = 20
-n7 = 10
-n8 = 5
-n9 = 1
+Thousand = deposit // 1000
+deposit = deposit % 1000
+Fivehundred = deposit // 500
+deposit = deposit % 500
+Twohundred = deposit // 200
+deposit = deposit % 200
+Onehundred = deposit // 100
+deposit = deposit % 100
+Fifty = deposit // 50
+deposit = deposit % 50 
+Twenty = deposit // 20
+deposit = deposit % 20
+Ten = deposit // 10
+deposit = deposit % 10
+Five = deposit // 5
+deposit = deposit % 5
+One = deposit // 1
+deposit = deposit % 1
 
-print(C // n1,"- 1000")
-print((C % n1) // n2,"- 500")
-print((C % n1 % n2) // n3,"- 200")
-print((C % n1 % n2 % n3) // n4,"- 100")
-print((C % n1 % n2 % n3 % n4) // n5,"- 50")
-print((C % n1 % n2 % n3 % n4 % n5) // n6,"- 20")
-print((C % n1 % n2 % n3 % n4 % n5 % n6) // n7,"- 10")
-print((C % n1 % n2 % n3 % n4 % n5 % n6 % n7) // n8,"- 5")
-print((C % n1 % n2 % n3 % n4 % n5 % n6 % n7 % n8) // n9,"- 1")
+print(Thousand,"-1000")
+print(Fivehundred,"-500")
+print(Twohundred,"-200")
+print(Onehundred,"-100")
+print(Fifty,"-50")
+print(Ten,"-10")
+print(Five,"-5")
+print(One,"-1")

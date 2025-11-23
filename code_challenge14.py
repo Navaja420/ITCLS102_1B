@@ -1,4 +1,4 @@
-name = input("Endter your name -- >")
+name = input("Enter your name -- >")
 print(f"---Anime List Maker, {name}---")
 
 anime_list = []
@@ -11,7 +11,8 @@ while True:
 else:
     print("Error!")
 
-print(f"\nanime List of{name.upper()}:")
+print(f"\nanime List ofc {name.upper()}:")
 for i in range(1, len(anime_list)+ 1):
     print(f" {i} - {anime_list[i - 1]}")
+
 print("\nThank You for Trying the Anime List Maker!!")
